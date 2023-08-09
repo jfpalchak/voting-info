@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Voting Information</title>
+</head>
+<body>
+  <h1>Welcome to all your Voting Informational needs!</h1>
+  
+  <form id="userInfo">
+    <label for="age">What's your age?</label>
+    <input id="age" type="text" name="age">
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="of-age" class="hidden">
+    <p>This is your voting information, because you're of age!</p>
+    <a href="http://google.com">Here's some resources!</a><br>
+    <a href="http://google.com">Here's some more!</a>
+  </div>
+
+  <div id="not-of-age" class="hidden">
+    <p>You are not of age! Come back later!</p>
+    <a href="http://google.com">In the meantime, here's some resources!</a><br>
+    <a href="http://google.com">Here's some more!</a>
+  </div>
+
+  <div id="invalid" class="hidden">
+    <p>Not a number, please enter a valid age!</p>
+  </div>
+
+</body>
+</html>
